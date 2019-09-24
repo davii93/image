@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#휴우지{width: 500px; margin: auto;display: block;margin-top; }
+		#휴지{opacity: 0; width: 500px; margin: auto;display: block;margin-top;}
+	</style>
+</head>
+<body id="mybody">
+	<img src="휴우지.jpg" id="휴우지"title=휴지를&nbsp아껴서&nbsp사용하세요 >
+	<img src="휴지.gif" id="휴지" style="text-align: center;">
+	<audio id="crowd" loop>
+		<source src="crowd.wav" type="audio/mpeg">
+		
+	</audio>
+	<script type="text/javascript">
+		휴우지.onclick = function(){
+			crowd.play();
+		    휴우지.style.opacity = "0";
+		    휴지.style.opacity = "100";
+		
+		}
+	</script>
+
+</body>
+</html>
